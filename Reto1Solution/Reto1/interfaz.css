@@ -1,0 +1,46 @@
+﻿
+#container{
+    top:350px;
+    position:absolute;
+       width: 100%;
+       height: 250px; 
+}
+
+#frutas{
+    position:absolute;
+    color: hsl(205, 100%, 50%);
+    text-align: center;
+    left:0px;
+    width: 30%;
+    height: 150px;
+}
+
+#buttons{
+    left:30%;
+    position: absolute;
+    width: 15px;
+    height: 150px;
+}
+
+button{
+    margin-top: 25px;
+}
+
+#resultado{
+        
+        width: 100%;
+        height: 250px;
+        text-align: right;
+}
+
+#resultado p:first-child{
+    color: hsl(24, 100%, 50%);
+}
+
+#resultado p:nth-child(2){
+    color: hsl(0, 100%, 50%);
+}
+
+#resultado p:last-child{
+    color: hsl(77, 100%, 50%);
+}

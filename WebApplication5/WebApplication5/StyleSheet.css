@@ -1,0 +1,23 @@
+﻿body {
+}
+
+table{
+    width:60%;
+    height: 180px;
+}
+
+td{
+    width:15%;
+    border-style:solid;
+    border-color:blue;
+    border-left:thin;
+    border-bottom:thin;
+}
+
+td:hover,td.selected{
+    background-color:yellow;
+}
+
+td.comprado{
+    background-color:red;
+}
